@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node mqtt.js",
+    "dev":"nodemon mqtt.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "18": "^0.0.0",
+    "express": "^4.19.2",
+    "mqtt": "^4.3.8",
+    "nodemon": "^3.1.0",
+    "restify": "^8.6.0",
+    "sqlite3": "^5.1.7"
+  },
+  "description": ""
+}
